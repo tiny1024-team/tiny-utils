@@ -5,8 +5,8 @@
  * @param {number | string | Date} dateFinal
  * @returns {number| string}
  * @example <pre>
- *   import { getDaysDiffBetweenDates } from 'tiny-tools'
- *   import { dateType } from 'tiny-tools/lib/date'
+ *   import { getDaysDiffBetweenDates } from 'tiny-utils'
+ *   import { dateType } from 'tiny-utils/lib/date'
  *   getDaysDiffBetweenDates('2021/02/19', '2021/02/25') => 6
  *   getDaysDiffBetweenDates(1613836800000, 1612886400000) => -11
  *   getDaysDiffBetweenDates(new Date('2021/02/19 00:00:00.000'), new Date('2021/02/20 23:59:59:999')) => 1

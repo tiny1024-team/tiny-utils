@@ -1,6 +1,6 @@
 /*!
- * tiny-tools v1.0.0
- * tiny-tools is a utility library of zero dependencies for javascript.
+ * tiny-utils v1.0.0
+ * tiny-utils is a utility library of zero dependencies for javascript.
  * (c) 2020-2021
  * Released under the MIT License.
  * version 1.0.0
@@ -14,8 +14,8 @@
  * @param [type] number 选填 默认 type:0 正顺 type:1 反顺
  * @example
  * <pre>
- * import { sortArrItem } from 'tiny-tools'
- * import { objType } from 'tiny-tools/lib/array';
+ * import { sortArrItem } from 'tiny-utils'
+ * import { objType } from 'tiny-utils/lib/array';
  * const temp:objType[] = [
  * { name: 'zzx', score: 90, age: 12 },
  * { name: 'lyy', score: 90, age: 5 },
@@ -153,8 +153,8 @@ function dateFormat(date, fmt) {
  * @param {number | string | Date} dateFinal
  * @returns {number| string}
  * @example <pre>
- *   import { getDaysDiffBetweenDates } from 'tiny-tools'
- *   import { dateType } from 'tiny-tools/lib/date'
+ *   import { getDaysDiffBetweenDates } from 'tiny-utils'
+ *   import { dateType } from 'tiny-utils/lib/date'
  *   getDaysDiffBetweenDates('2021/02/19', '2021/02/25') => 6
  *   getDaysDiffBetweenDates(1613836800000, 1612886400000) => -11
  *   getDaysDiffBetweenDates(new Date('2021/02/19 00:00:00.000'), new Date('2021/02/20 23:59:59:999')) => 1
@@ -470,8 +470,8 @@ function isWindow(obj) {
  * @param {Element|Window} [elOrWindow]
  * @return {width:Number,height:Number}
  * @example <pre>
- *   import { viewport } from 'tiny-tools'
- *   import { Viewport } from 'tiny-tools/lib/dom'
+ *   import { viewport } from 'tiny-utils'
+ *   import { Viewport } from 'tiny-utils/lib/dom'
  *   viewport()  => { width: 1920, height: 1080 }
  * </pre>
  */

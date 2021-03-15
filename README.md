@@ -1,4 +1,4 @@
-# tiny-tools
+# tiny-utils
 
 工具函数库
 
@@ -18,7 +18,7 @@
 
 ## 介绍
 
-tiny-tools 是一个函数工具，包括数组处理、时间处理、dom 处理、对象处理、常用验证等函数
+tiny-utils 是一个函数工具，包括数组处理、时间处理、dom 处理、对象处理、常用验证等函数
 
 ## 文件命名规范
 
@@ -36,10 +36,10 @@ yarn run docs
 
 ```sh
 // yarn
-yarn add tiny-tools -S
+yarn add tiny-utils -S
 
 // npm
-npm install tiny-tools -S
+npm install tiny-utils -S
 ```
 
 通过`<script>`标签来直接使用
@@ -47,13 +47,13 @@ npm install tiny-tools -S
 指定版本：
 
 ```html
-<script src="dist/tiny-tools.min.js"></script>
+<script src="dist/tiny-utils.min.js"></script>
 ```
 
 ES 模块版本
 
 ```html
-<script src="dist/tiny-tools.esm.browser.js"></script>
+<script src="dist/tiny-utils.esm.browser.js"></script>
 ```
 
 ## 使用
@@ -61,15 +61,15 @@ ES 模块版本
 `js`
 
 ```js
-import { isAndroid } from 'tiny-tools'
+import { isAndroid } from 'tiny-utils'
 const isDeviceAndroid = isAndroid()
 ```
 
 `ts`
 
 ```ts
-import { sortArrItem } from 'tiny-tools'
-import { objType } from 'tiny-tools/lib/array'
+import { sortArrItem } from 'tiny-utils'
+import { objType } from 'tiny-utils/lib/array'
 const temp: objType[] = [
   { name: 'zzx', score: 90, age: 12 },
   { name: 'lyy', score: 90, age: 5 },
@@ -83,12 +83,12 @@ sortArrItem(sortArrItem(temp, 'age', 0), 'score', 0)
 
 | 类型 | 文件名                      | 功能                                        |
 | :--: | :-------------------------- | :------------------------------------------ |
-| cjs  | tiny-tools.cjs.js     | CommonJS，适用于 Node 和 Browserify/Webpack |
-| cjs  | tiny-tools.cjs.min.js | CommonJS，适用于 Node 和 Browserify/Webpack |
-| umd  | tiny-tools.umd.js     | 通用模块定义，以 amd，cjs 和 iife 为一体    |
-| umd  | tiny-tools.umd.min.js | 通用模块定义，以 amd，cjs 和 iife 为一体    |
-| esm  | tiny-tools.esm.js     | 软件包保存为 ES 模块文件                    |
-| esm  | tiny-tools.esm.min.js | 软件包保存为 ES 模块文件                    |
+| cjs  | tiny-utils.cjs.js     | CommonJS，适用于 Node 和 Browserify/Webpack |
+| cjs  | tiny-utils.cjs.min.js | CommonJS，适用于 Node 和 Browserify/Webpack |
+| umd  | tiny-utils.umd.js     | 通用模块定义，以 amd，cjs 和 iife 为一体    |
+| umd  | tiny-utils.umd.min.js | 通用模块定义，以 amd，cjs 和 iife 为一体    |
+| esm  | tiny-utils.esm.js     | 软件包保存为 ES 模块文件                    |
+| esm  | tiny-utils.esm.min.js | 软件包保存为 ES 模块文件                    |
 
 ## 依赖
 

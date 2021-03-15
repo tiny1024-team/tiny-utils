@@ -6,8 +6,8 @@
  * @param [type] number 选填 默认 type:0 正顺 type:1 反顺
  * @example
  * <pre>
- * import { sortArrItem } from 'tiny-tools'
- * import { objType } from 'tiny-tools/lib/array';
+ * import { sortArrItem } from 'tiny-utils'
+ * import { objType } from 'tiny-utils/lib/array';
  * const temp:objType[] = [
  * { name: 'zzx', score: 90, age: 12 },
  * { name: 'lyy', score: 90, age: 5 },

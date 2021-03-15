@@ -12,8 +12,8 @@ export interface Viewport {
  * @param {Element|Window} [elOrWindow]
  * @return {width:Number,height:Number}
  * @example <pre>
- *   import { viewport } from 'tiny-tools'
- *   import { Viewport } from 'tiny-tools/lib/dom'
+ *   import { viewport } from 'tiny-utils'
+ *   import { Viewport } from 'tiny-utils/lib/dom'
  *   viewport()  => { width: 1920, height: 1080 }
  * </pre>
  */

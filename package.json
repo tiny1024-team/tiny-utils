@@ -1,8 +1,8 @@
 {
-  "name": "@tiny/tiny-tools",
+  "name": "@tiny/tiny-utils",
   "version": "1.0.0",
   "description": "工具函数库",
-  "repository": "https://github.com/tiny1024-team/tiny-tools.git",
+  "repository": "https://github.com/tiny1024-team/tiny-utils.git",
   "author": "tiny-1024 <tiny1024@126.com>",
   "license": "MIT",
   "main": "lib/index.js",
