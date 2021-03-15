@@ -1,0 +1,6 @@
+{
+  "entryPoints": ["./src/index.ts"],
+  "out": "docs",
+  "name":"tiny-tools",
+  "tsconfig": "./tsconfig.json"
+}

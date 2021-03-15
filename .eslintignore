@@ -1,0 +1,10 @@
+es/**/*
+lib/**/*
+node_modules/*
+scripts
+build
+dist
+coverage
+# Scripts
+jest-stare
+template

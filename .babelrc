@@ -1,0 +1,29 @@
+{
+  "presets": [
+    ["@babel/preset-typescript", {
+      "allowNamespaces": true
+    }],
+    [
+      "@babel/preset-env",
+      {
+        "modules": false
+        // "targets": {
+        //   "node": "current"
+        // }
+      }
+    ],
+    // "@babel/preset-typescript"
+  ],
+  "plugins": [
+    [
+      "@babel/plugin-transform-runtime",
+      {
+        "corejs": {
+          "version": 3,
+          "proposals": true
+        },
+        "useESModules": true
+      }
+    ]
+  ]
+}
